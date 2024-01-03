@@ -123,28 +123,6 @@ void updateBrainScreen() {
     Brain.Screen.printAt(360, 150, "Loader");
   }
   }
-    
-void brainLicensePlate() {
-  Brain.Screen.clearScreen();
-  Brain.Screen.setFillColor(black);
-  if (allianceColor == 1) {
-    Brain.Screen.setFillColor(red);
-    Brain.Screen.setPenColor(red);
-  } else if (allianceColor == 2) {
-    Brain.Screen.setFillColor(blue);
-    Brain.Screen.setPenColor(blue);
-  }
-  Brain.Screen.drawRectangle(0, 0, 480, 240);
-  Brain.Screen.setFont(prop60);
-  if (allianceColor == 1) {
-    Brain.Screen.setFillColor(red);
-    Brain.Screen.setPenColor(white);
-  } else if (allianceColor == 2) {
-    Brain.Screen.setFillColor(blue);
-    Brain.Screen.setPenColor(black);
-  }
-  Brain.Screen.printAt(170, 120, "CUTIES");
-}
 
 void updateControllerScreen() {
   Controller1.Screen.setCursor(1, 1);
