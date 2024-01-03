@@ -1,4 +1,5 @@
-//"Complex Auton Selector
+using namespace vex
+#include "ComplexAutonSelector.h"
 
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
