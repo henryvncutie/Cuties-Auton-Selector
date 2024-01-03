@@ -5,7 +5,10 @@ This is 3142C's Autonomous Selector
 There are two versions of the auton selector. One is called "Simple Auton Selector" and the other is called "Complex Auton Selector." The simple one runs with the default vexcode brain commands. The complex version runs using custom images for the buttons. Both have the same functionality but the complex version requires more setup, an SD card, and looks prettier.
 
 For the simple version, download both "simpleAutonSelector.cpp" and "simpleAutonSelector.h"
-  at the top of your main.cpp file, paste '#include "simpleAutonSelector.h"'
+  at the top of your main.cpp file, paste:
+  
+    #include "simpleAutonSelector.h"
+  
   then in your pre_auton function, paste:
   
     drawGUI(); 
@@ -53,7 +56,10 @@ in your autonomous function paste:
 
 
 For the complex version, download both "complexAutonSelector.cpp" and "complexAutonSelector.h"
-  at the top of your main.cpp file, paste '#include "complexAutonSelector.h"'
+  at the top of your main.cpp file, paste:
+  
+    #include "complexAutonSelector.h"
+  
   then in your pre_auton function, paste:
   
     drawGUI(); 
