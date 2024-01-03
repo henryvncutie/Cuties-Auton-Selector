@@ -6,7 +6,7 @@ using namespace vex
 /*    Module:       Complex Auton Selector                                     */
 /*    Author:       Henry from 3142C                                          */
 /*    Created:      Jan 2 24                                                  */
-/*    Description:  Simple version of 3142's Auton selector                   */
+/*    Description:  Complex version of 3142's Auton selector                   */
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
 //
