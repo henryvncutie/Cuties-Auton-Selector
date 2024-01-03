@@ -1,4 +1,5 @@
-"Simple Auton Selector"
+using namespace vex
+#include "SimpleAutonSelector.h"
 
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
