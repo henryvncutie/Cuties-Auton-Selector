@@ -1,9 +1,6 @@
 using namespace vex
 #include "vex.h"
 
-using namespace vex
-#include "ComplexAutonSelector.h"
-
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
 /*    Module:       Complex Auton Selector                                     */
