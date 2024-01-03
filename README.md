@@ -55,7 +55,7 @@ in your autonomous function paste:
       }
 
 
-For the complex version, download both "complexAutonSelector.cpp" and "complexAutonSelector.h"
+For the complex version, download both "complexAutonSelector.cpp" and "complexAutonSelector.h" also download all of the .png files in this project. Put these png files onto an SD card and plug it into your brain. Make sure to not have anything else on the SD card, and to not put the pngs into a folder on the SD.
   at the top of your main.cpp file, paste:
   
     #include "complexAutonSelector.h"
